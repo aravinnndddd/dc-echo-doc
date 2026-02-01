@@ -229,7 +229,14 @@ const App: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-8 border-b border-[#2b2d31] pb-4">
             Discord Bot Setup
           </h3>
-          <div className="space-y-4">
+          <a
+            className="underline text-blue-500"
+            target="_blank"
+            href="https://discord.com/developers/applications"
+          >
+            Discord Developer Portal {"->"}
+          </a>
+          <div className="space-y-4 mt-2">
             {SETUP_STEPS.map((step, i) => (
               <div
                 key={i}
@@ -257,7 +264,7 @@ const App: React.FC = () => {
             </h4>
             <CodeBlock
               title="Terminal"
-              code="git clone https://github.com/your/discord-echo.git\ncd discord-echo\nnpm install\nnpm start"
+              code="https://github.com/aravinnndddd/Discord-Echo.git"
             />
           </div>
         </section>
