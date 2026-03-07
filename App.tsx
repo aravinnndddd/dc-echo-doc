@@ -176,7 +176,7 @@ const App: React.FC = () => {
               Get Started
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/aravinnndddd/Discord-Echo"
               target="_blank"
               className="bg-[#4e5058] hover:bg-[#6d6f78] text-white font-bold py-3 px-8 rounded-lg transition-all"
             >
