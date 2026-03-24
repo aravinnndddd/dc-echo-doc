@@ -19,4 +19,23 @@ export interface UserPresence {
   updatedAt: string;
 }
 
-export type SectionId = 'intro' | 'features' | 'setup' | 'config' | 'api' | 'response' | 'ai-helper';
+export type SectionId = 'intro' | 'features' | 'setup' | 'config' | 'api' | 'response';
+
+export interface SidebarNavItem {
+  id: SectionId;
+  label: string;
+  icon: string;
+  group: 'guide' | 'developer';
+}
+
+export interface FeatureItem {
+  title: string;
+  desc: string;
+  icon: string;
+}
+
+export interface EndpointItem {
+  method: 'GET' | 'POST' | 'PUT' | 'DELETE';
+  path: string;
+  description: string;
+}
